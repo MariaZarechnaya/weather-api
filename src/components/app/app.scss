@@ -1,0 +1,39 @@
+@import '../../style/variables.scss';
+
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+    ;
+    padding: 10px 10px;
+    // background: $background;
+    // background: $background-gradient;
+    border-radius: 20px;
+
+}
+.wrapper-morning{
+    background: $background-morning;
+    background: $background-gradient-morning;
+
+}
+.wrapper-day{
+    background: $background-day;
+    background: $background-gradient-day;
+
+}
+.wrapper-evening{
+    background: $background-evening;
+    background: $background-gradient-evening;
+}
+.wrapper-night{
+    background: $background-night;
+    background: $background-gradient-night;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: $font-color;
+    font-size: $font-size;
+    padding: 20px 0;
+
+}
+

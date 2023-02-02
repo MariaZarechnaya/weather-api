@@ -1,0 +1,87 @@
+@import '../../style/variables.scss';
+
+@keyframes visible{
+    from{
+        height: 10px;
+        opacity:0;
+        transform: translate(0, -500px);
+    }
+    to{
+        height: 430px; 
+        opacity:1;
+        transform: translate(0, 0);
+
+    }
+
+}
+@keyframes invisible{
+    from{
+        height: 430px; 
+        opacity:1;
+        transform: translate(0, 0);
+    }
+    to{
+        height: 10px; 
+        opacity:0;
+        transform: translate(0, -500px);
+    }
+}
+
+        .button-five-days{
+            display: block;
+            margin: 0 auto;
+            font-size: 20px;
+            margin-top: 20px;
+            
+        }
+        .five-days-items{
+            gap: 10px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+
+            .five-days-item{
+                padding: 0 15px;
+                height: 80px;
+                background-color: $background-block;
+                border: 1px solid rgba(255, 255, 255, 0.445);
+                border-radius: 10px;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+
+                .item-title{
+                    color: $font-color-title;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+            }
+    
+        }
+ .items-active{
+    transition: 2s ease;
+    visibility: visible;
+    animation-name: visible;
+    animation-duration: 2s;
+        }
+
+.none-five-days{
+animation-name: invisible;
+ animation-duration: 0.7s;
+height: 10px;
+visibility: hidden;
+overflow: hidden;
+
+}
+.button-none{
+         visibility: hidden;
+        opacity: 0; 
+        
+}
+
+.five-days-wrapper {
+    
+}
+
+.item-title-change{
+    color: $font-color-title-night !important;
+}

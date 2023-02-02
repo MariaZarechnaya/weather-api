@@ -1,0 +1,21 @@
+@import '../../style/variables.scss';
+
+.header-block{
+    height: 100px;
+    padding: 20px 10px;
+    height: 150px;
+    .search-list{
+        background-color: rgba(240, 255, 255, 0.288);
+        display: none;
+}
+button{
+    font-size: $font-size;
+    
+}
+input{
+    font-size: $font-size;
+    margin-bottom: 15px;
+    box-shadow: $shadow;
+
+}
+}

@@ -1,0 +1,43 @@
+
+@import '../../style/variables.scss';
+
+.today-wrapper{
+    width: 250px;
+    background-color: $background-block;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: $shadow;
+    padding: 25px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    p{
+        display: block;
+        padding-left: 30px;
+        font-size: 23px;
+        
+        .span{
+            display: inline-block;
+            padding-right: 15px;
+            // color: $font-color-title;
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+    .h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        color: $font-color-title;
+        padding-bottom: 30px;
+        span{
+            font-size: 25px;
+        }
+    }
+}
+.app-today-section{
+    display: flex;
+    justify-content: space-around
+}
+
+.change-text-color{
+    color: $font-color-title-night !important;  
+}

@@ -1,0 +1,43 @@
+@import '../../style/variables.scss';
+
+@keyframes visibleIcon{
+    from{
+        visibility: hidden;
+        opacity: 0; 
+        transform: translateX(-100px);
+    }
+    to{
+        visibility: visible;
+        opacity: 1;  
+        transform: translateX(0);
+    }
+
+}
+
+
+.app-image-block-img{
+animation-name: visibleIcon;
+animation-duration: 2s;
+ height: 400px;
+ width: 250px;
+padding-top: 20px;
+p{
+    text-align: center;
+    padding-top: 30px;
+}
+img{
+    width: 250px;
+    height: 250px;
+     }
+    
+
+}
+
+.none{
+visibility: hidden;
+opacity: 0;
+height: 400px;
+width: 250px;
+
+}
+
