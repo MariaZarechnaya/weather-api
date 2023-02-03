@@ -13,8 +13,8 @@ return(
         action=""
         name= 'city'
         >
-        <input   className= "header-input form-control" type="text" name="city" id="" placeholder="Город"  />
-        <button className="btn btn-outline-light"> Найти </button>
+        <input   className= "header-input form-control" type="text" name="city" id="" placeholder="Enter a city name"  />
+        <button className="btn btn-outline-light"> Search </button>
         </form>
     
     </div>

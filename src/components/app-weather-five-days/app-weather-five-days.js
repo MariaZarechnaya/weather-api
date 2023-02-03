@@ -74,7 +74,7 @@ render() {
                 <button 
                 className={buttonClassName}
                 onClick={() => this.showBlock()}
-                > Показать погоду на 5 дней</button>
+                > Show 5-day forecast</button>
                 </div>
             
             <div className={className}>
