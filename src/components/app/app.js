@@ -37,7 +37,7 @@ state = {
 
 
  if(city){
-  const data = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${_apiKey}`).then(response => response.json()).catch((err) => console.log(err));
+  const data = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${_apiKey}`).then(response => response.json()).catch((err) => console.log(err));
  
   this.getWeather(data[0].lat, data[0].lon);
   this.getHourlyWeather(data[0].lat, data[0].lon)
