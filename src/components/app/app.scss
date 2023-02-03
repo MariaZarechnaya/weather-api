@@ -36,4 +36,142 @@ body{
     padding: 20px 0;
 
 }
+// @keyframes visibleIcon{
+//     from{
+//         visibility: hidden;
+//         opacity: 0; 
+//         transform: translateX(-100px);
+//     }
+//     to{
+//         visibility: visible;
+//         opacity: 1;  
+//         transform: translateX(0);
+//     }
 
+// }
+
+
+
+@media (max-width: 768px){
+    .form-control{
+        width: 370px;
+        
+    }
+    .wrapper{
+        max-width: 450px;
+    }
+    .today-wrapper{
+        margin-left: 5px !important;
+    }
+    .app-today-section{
+        justify-content: flex-start !important;
+        gap: 10px;
+    }
+    .app-image-block-img{
+        width: 160px !important;
+        padding-top: 20% !important;
+    }
+    .app-image-block-img img{
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+    .today-card{
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 599px){
+    .wrapper{
+        max-width: 350px;
+    }
+
+    .form-control{
+        width: 285px;
+        
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-today-section{
+        flex-direction: column-reverse;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .none{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .app-image-block-img{
+        height: 100px !important;
+        width: 200px !important;
+        display: flex !important; 
+        margin-bottom: 50px !important;
+        padding-top: 0px !important;
+    }
+    .app-image-block-img img{
+        max-width: 130px !important;
+        max-height: 120px !important;
+        
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .today-card{
+        max-width: 75px;
+        font-size: 17px
+    }
+    .button-five-days{
+        font-size: 15px !important;
+    }
+    .five-days-item{
+        height: 65px;
+    }
+
+}
+
+@media (max-width: 370px){
+    .app-image-block-img{
+        padding-top: 0px !important;
+    }
+    .wrapper{
+        max-width: 305px;
+    }
+
+    .cards-wrapper{
+        display: flex;
+        flex-wrap: wrap !important;
+        gap: 10px;
+
+    }
+    .today-hours-block{
+        padding: 50px 10px 0 10px;
+    }
+    .today-card{
+       max-width: 120px !important;
+       p{
+        margin-bottom: 5px;
+       }
+        
+    }
+.five-days-item {
+    padding: 0 8px;
+    .five-days-icon{
+        gap: 5px !important; 
+    }
+    span{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    span.item-title{
+        font-size: 16px !important;
+    }
+}
+}
